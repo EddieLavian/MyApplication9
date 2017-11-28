@@ -24,7 +24,7 @@ public class TeamDetails extends AppCompatActivity {
     String key;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_team_details);
+        setContentView(R.layout.activity_team_details);//try commit
 
 
         database = FirebaseDatabase.getInstance();
